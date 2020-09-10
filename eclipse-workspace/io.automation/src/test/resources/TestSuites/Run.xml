@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="RunSuite" verbose="1">
+
+	<test name="Register_Test">
+
+		<classes>
+			<class name="io.automation.Register_User" />
+		</classes>
+
+	</test>
+
+	<test name="Login_User">
+
+		<classes>
+			<class name="io.automation.UserLogin" />
+		</classes>
+
+	</test>
+
+	<test name="Password_Forget">
+
+		<classes>
+			<class name="io.automation.Forget_Password" />
+		</classes>
+
+	</test>
+
+</suite>
